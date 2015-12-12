@@ -14,11 +14,13 @@ using TiceWEB.Services;
 
 namespace TiceWEB
 {
+
     public class Startup
     {
         public Startup(IHostingEnvironment env)
         {
             // Set up configuration sources.
+
 
             var builder = new ConfigurationBuilder()
                 .AddJsonFile("appsettings.json")
